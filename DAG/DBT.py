@@ -10,7 +10,7 @@ def my_func():
 with DAG(dag_id='DBT', 
          schedule_interval=None, 
          start_date=datetime(2023, 1, 1), 
-         default_args={"dbt_cloud_conn_id": "dbt_cloud", "account_id": 142169,},
+         default_args={"dbt_cloud_conn_id": "dbt_cloud", "account_id": 14882169,},
          catchup=False) as dag: 
 
     rest_API_1 = PythonOperator(
